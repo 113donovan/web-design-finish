@@ -1,0 +1,63 @@
+/* Custom button size */
+.btn-custom {
+  width: 150px; /* Adjust the width as needed */
+  text-align: center;
+  border-radius: 0; /* Pointy edges */
+  background-color: #191919 !important; /* Custom background color */
+  font-weight: bold; /* Bold font */
+}
+
+/* Icon button size */
+.btn-icon {
+  background-color: #191919 !important; /* Custom background color */
+  color: #d94438 !important; /* Custom icon color */
+  padding: 0.5rem 1rem; /* Adjust padding for better visibility */
+  border-radius: 0; /* Remove circular shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem; /* Increase icon size */
+}
+
+/* Custom colors */
+.bg-dark {
+  background-color: #191919 !important;
+}
+
+.bg-danger {
+  background-color: #ba4054 !important;
+}
+
+.text-danger {
+  color: #d94444 !important;
+}
+
+.bg-secondary {
+  background-color: #a49096 !important;
+}
+
+/* Overlay for background image */
+.overlay {
+  background-color: #a49096;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.preview-img {
+  width: 100%;
+  height: auto;
+}
+.title-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 250px;
+  height: auto;
+}

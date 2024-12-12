@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="d-flex flex-column min-vh-100 bg-dark text-light" style="font-family: 'Nunito Sans', sans-serif;">
+  <!-- Site Title Bar -->
+  <div class="bg-secondary py-2">
+    <div class="container-fluid">
+      <div class="bg-dark p-3 d-inline-block animate__animated animate__fadeInDown title-bar">
+        <img src="./images/logo.png" alt="Logo" class="logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-danger">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark text-danger btn-custom font-weight-bold text-uppercase" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark text-danger btn-custom font-weight-bold text-uppercase" href="info.html">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark text-danger btn-custom font-weight-bold text-uppercase" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark text-danger btn-custom font-weight-bold text-uppercase" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link btn-icon" href="#"><i class="fa-solid fa-envelope"></i></a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link btn-icon" href="#"><i class="fa-brands fa-paypal"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-icon" href="#"><i class="fa-brands fa-discord"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container my-4 flex-grow-1">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card bg-secondary">
+          <div class="card-body">
+            <img src="./images/commission_info.png" class="img-fluid" alt="Large image">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex flex-column">
+        <div class="card mb-4 bg-secondary flex-fill animate__animated animate__fadeInLeft">
+          <div class="card-body">
+            <h5 class="card-title text-danger btn-custom font-weight-bold text-uppercase">Commission Prices</h5>
+            <p>The first number is the price of one character. For my commissions, I charge an additional fee for each extra character.</p>
+            <ul class="card-text">
+              <h5>Sketch/Flat colour</h5>
+              <li>Headshot: 10 USD + 7 per character</li>
+              <li>Half body: 17 USD + 12 per character</li>
+              <li>Full body: 25 USD + 20 per character</li> 
+              <br>
+              <h5>Shaded</h5>
+              <li>HEADSHOT/BUST: 20 USD + 17 per character</li>
+              <li>HALFBODY: 25 USD + 20 per character</li>
+              <li>FULLBODY: 45 USD + 40 per character</li>
+              <br>
+              <h5>Complex rendering/shading</h5>
+              <li>HEADSHOT/BUST: 35 USD + 30 per character</li>
+              <li>HALFBODY: 45 USD + 40 per character</li>
+              <li>FULLBODY: 60 USD + 55 per character</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card mb-4 bg-secondary flex-fill animate__animated animate__fadeInRight">
+          <div class="card-body">
+            <h5 class="card-title text-danger btn-custom font-weight-bold text-uppercase">Rules</h5>
+            <ul class="card-text">
+              <li>Please keep in mind that I have the right to refuse any commission, regardless of reason.</li>
+              <li>I add a small watermark somewhere in your piece. I ask that you do not try to remove this watermark/signature.</li>
+              <li>Do not trace, steal, or claim my art as your own.</li>
+              <li>I require all payment up front and through PayPal only. I only accept USD.</li>
+              <li>Depending on what you ask for, I may charge extra (i.e. complex backgrounds, props, posing).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer bar -->
+  <div class="bg-danger py-2">
+  </div>
+
+  <footer class="footer mt-auto py-3 bg-secondary">
+    <div class="container-fluid">
+      <span class="text-light">All of the art used on this site is mine, do not reuse it without permission.</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.amazonaws.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
